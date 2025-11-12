@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --sxl-dark-navy: #020c1b;
+    --sxl-navy: #0a192f;
+    --sxl-light-navy: #112240;
+    --sxl-lightest-navy: #233554;
+    --sxl-slate: #8892b0;
+    --sxl-light-slate: #a8b2d1;
+    --sxl-lightest-slate: #ccd6f6;
+    --sxl-blue: #00539f;
+    --sxl-orange: #f37021;
+  }
+
+  body {
+    font-family: 'Inter', sans-serif;
+  }
+}
